@@ -12,6 +12,8 @@ function QueryButton(props) {
       <form onSubmit={props.onSubmit} className="SubQuery">
         <input
           type="text"
+          name='subject'
+          id="subject"
           onChange={props.onChange}
           className="SubSearch"
           placeholder="Search by subject..."

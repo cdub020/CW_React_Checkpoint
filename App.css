@@ -86,7 +86,7 @@ body{
   padding: 1rem;
 }
 .SingleHeading{
-  color: white;
+  color: Black;
   position: relative;
   left:1.5rem;
 }
@@ -128,7 +128,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif
   transform: translateY(.1rem);
 }
 
-input[type='text'] {
+.SubSearch {
   padding: 5px 5px;
   height: 25px;
   position: relative;
@@ -145,7 +145,7 @@ input[type='text'] {
   transition: background-color 0.3s;
   color: white;
 }
-input[type='text']:focus {
+.SubSearch:focus {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
@@ -161,4 +161,76 @@ input[type='text']:focus {
 }
 ::placeholder{
   color: white;
+}
+.SendEmailHeading{
+  color: black;
+  position: relative;
+  left:1.5rem;
+}
+.SendEmail{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 30rem;
+  width: auto;
+}
+.FormSend{
+background-color: #fbeec1;
+height:14rem;
+width:30rem;
+list-style: none;
+border: 1px solid black;
+border-radius: 10px;
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif
+
+}
+
+.SendMail{
+  background-color: white;
+  position: relative;
+  left:8rem;
+  bottom : .2rem;
+  font-size: 16px;
+  letter-spacing: .1rem;
+  border-radius: 8px;
+  font-weight: bolder;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 3px,5px,10px black;
+  transition: background-color .3s;
+
+}
+.SendMail:hover{
+  background-color: lavender
+}
+.SendMail:active{
+  transform: translateY(.1rem);
+}
+.sendmailbtn{
+  background-color: white;
+  position: relative;
+  left:1rem;
+  font-size: 16px;
+  letter-spacing: .1rem;
+  border-radius: 8px;
+  font-weight: bolder;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 3px,5px,10px black;
+  transition: background-color .3s;
+}
+.sendmailbtn:hover{
+  background-color: lavender
+}
+.sendmailbtn:active{
+  transform: translateY(.1rem);
+}
+
+#message{
+  height: 5rem;
+  width: 15rem;
+  overflow: hidden;
+  overflow-y: scroll;
+  
 }
